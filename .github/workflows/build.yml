@@ -24,7 +24,6 @@ jobs:
   build-and-push:
     name: Build and deploy
     runs-on: ubuntu-latest
-    steps:
 
     - name: Checkout
       uses: actions/checkout@master
