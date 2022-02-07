@@ -21,7 +21,7 @@ env:
   CONTAINER_IMAGE: example-eks:${{ github.sha }}
 
 jobs:
-  build-and-push:
+  deploy:
     name: Build and deploy
     runs-on: ubuntu-latest
 
