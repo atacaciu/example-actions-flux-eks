@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: aws-example-octodex
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
-    - nodePort: 31479
       port: 8080
       targetPort: 5000
   selector:
     app: aws-example-octodex
+
